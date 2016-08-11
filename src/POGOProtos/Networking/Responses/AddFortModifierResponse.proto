@@ -2,5 +2,5 @@ syntax = "proto3";
 package POGOProtos.Networking.Responses;
 
 message AddFortModifierResponse {
-	// Initialized by assist.py
+  // Initialized by assist.py
 }

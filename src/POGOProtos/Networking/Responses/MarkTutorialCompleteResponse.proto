@@ -4,6 +4,6 @@ package POGOProtos.Networking.Responses;
 import "POGOProtos/Data/PlayerData.proto";
 
 message MarkTutorialCompleteResponse {
-	bool success = 1;
-	.POGOProtos.Data.PlayerData player_data = 2;
+  bool success = 1;
+  .POGOProtos.Data.PlayerData player_data = 2;
 }

@@ -4,6 +4,6 @@ package POGOProtos.Networking.Responses;
 import "POGOProtos/Inventory/InventoryDelta.proto";
 
 message GetInventoryResponse {
-	bool success = 1;
-	.POGOProtos.Inventory.InventoryDelta inventory_delta = 2;
+  bool success = 1;
+  .POGOProtos.Inventory.InventoryDelta inventory_delta = 2;
 }

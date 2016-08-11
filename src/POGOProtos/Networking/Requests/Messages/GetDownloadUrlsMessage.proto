@@ -3,5 +3,5 @@ package POGOProtos.Networking.Requests.Messages;
 
 // UNTESTED
 message GetDownloadUrlsMessage {
-	repeated string asset_id = 1;
+  repeated string asset_id = 1;
 }

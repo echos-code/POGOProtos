@@ -5,9 +5,9 @@ import "POGOProtos/Enums/IapItemCategory.proto";
 import "POGOProtos/Inventory/Item/ItemId.proto";
 
 message IapItemDisplay {
-	string sku = 1;
-	.POGOProtos.Enums.HoloIapItemCategory category = 2;
-	int32 sort_order = 3;
-	repeated .POGOProtos.Inventory.Item.ItemId item_ids = 4;
-	repeated int32 counts = 5;
+  string sku = 1;
+  .POGOProtos.Enums.HoloIapItemCategory category = 2;
+  int32 sort_order = 3;
+  repeated .POGOProtos.Inventory.Item.ItemId item_ids = 4;
+  repeated int32 counts = 5;
 }

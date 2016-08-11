@@ -4,5 +4,5 @@ package POGOProtos.Inventory;
 import "POGOProtos/Inventory/AppliedItem.proto";
 
 message AppliedItems {
-	repeated .POGOProtos.Inventory.AppliedItem item = 4;
+  repeated .POGOProtos.Inventory.AppliedItem item = 4;
 }

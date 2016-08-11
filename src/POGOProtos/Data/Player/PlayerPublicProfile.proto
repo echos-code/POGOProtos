@@ -4,7 +4,7 @@ package POGOProtos.Data.Player;
 import "POGOProtos/Data/Player/PlayerAvatar.proto";
 
 message PlayerPublicProfile {
-	string name = 1;
-	int32 level = 2;
-	.POGOProtos.Data.Player.PlayerAvatar avatar = 3;
+  string name = 1;
+  int32 level = 2;
+  .POGOProtos.Data.Player.PlayerAvatar avatar = 3;
 }

@@ -2,5 +2,5 @@ syntax = "proto3";
 package POGOProtos.Networking.Requests.Messages;
 
 message DownloadItemTemplatesMessage {
-	// No message needed.
+  // No message needed.
 }

@@ -4,8 +4,8 @@ package POGOProtos.Map.Fort;
 import "POGOProtos/Enums/PokemonId.proto";
 
 message FortLureInfo {
-	string fort_id = 1;
-	fixed64 encounter_id = 2; 
-	.POGOProtos.Enums.PokemonId active_pokemon_id = 3;
-	int64 lure_expires_timestamp_ms = 4;
+  string fort_id = 1;
+  fixed64 encounter_id = 2;
+  .POGOProtos.Enums.PokemonId active_pokemon_id = 3;
+  int64 lure_expires_timestamp_ms = 4;
 }

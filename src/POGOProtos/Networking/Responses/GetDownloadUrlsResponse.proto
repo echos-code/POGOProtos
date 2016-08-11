@@ -5,5 +5,5 @@ import "POGOProtos/Data/DownloadUrlEntry.proto";
 
 // UNTESTED
 message GetDownloadUrlsResponse {
-	repeated .POGOProtos.Data.DownloadUrlEntry download_urls = 1;
+  repeated .POGOProtos.Data.DownloadUrlEntry download_urls = 1;
 }

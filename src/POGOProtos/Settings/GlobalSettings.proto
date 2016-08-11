@@ -7,9 +7,9 @@ import "POGOProtos/Settings/LevelSettings.proto";
 import "POGOProtos/Settings/InventorySettings.proto";
 
 message GlobalSettings {
-	.POGOProtos.Settings.FortSettings fort_settings = 2;
-	.POGOProtos.Settings.MapSettings map_settings = 3;
-	.POGOProtos.Settings.LevelSettings level_settings = 4;
-	.POGOProtos.Settings.InventorySettings inventory_settings = 5;
-	string minimum_client_version = 6;
+  .POGOProtos.Settings.FortSettings fort_settings = 2;
+  .POGOProtos.Settings.MapSettings map_settings = 3;
+  .POGOProtos.Settings.LevelSettings level_settings = 4;
+  .POGOProtos.Settings.InventorySettings inventory_settings = 5;
+  string minimum_client_version = 6;
 }

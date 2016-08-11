@@ -4,5 +4,5 @@ package POGOProtos.Networking.Requests.Messages;
 import "POGOProtos/Enums/TeamColor.proto";
 
 message SetPlayerTeamMessage {
-	.POGOProtos.Enums.TeamColor team = 1;
+  .POGOProtos.Enums.TeamColor team = 1;
 }
